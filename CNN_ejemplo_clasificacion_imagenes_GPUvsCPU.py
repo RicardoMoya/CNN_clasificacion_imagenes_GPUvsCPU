@@ -71,7 +71,7 @@ print("Nº de Clases a Clasificar: {} Clases".format(num_classes))
 #   Capa Flatten: Capa de entrada del clasificador. Pasa cada Pixel a neurona
 #   Capa Oculta 1: 512 Neurona, Función Activación RELU
 #   Capa Oculta 2: 64 Neurona, Función Activación RELU
-#   Capa Salida: 6 Neurona (6 Clases), Función Activación SOFTMAX
+#   Capa Salida: 8 Neurona (8 Clases), Función Activación SOFTMAX
 model = Sequential()
 model.add(Conv2D(filters=32,
                  kernel_size=(3, 3),
