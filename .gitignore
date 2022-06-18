@@ -1,0 +1,10 @@
+.DS_Store
+.idea/
+__pycache__/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+pred/
+test/
+train/
